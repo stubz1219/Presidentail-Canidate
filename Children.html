@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Understanding Donald J Trump </title>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/defualt.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky-kit.js"></script>
+    <script type="text/javascript" src="js/children.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/children.css" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="banner">
+        <h1>Donald J Trump</h1>
+    </div>
+
+    <div id="sidebar">
+        <h2> Pages </h2>
+        <ul>
+            <li><a href="Default.html">Cabinet Picks</a></li>
+            <li><a href="Election.html"> Election Results</a></li>
+            <li><a href="Policies.html"> Trumps Policies</a></li>
+            <li><a href="Children.html">Trumps Children</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <h1>Trump and his Children</h1>
+        <div id="info">
+            <h2>The First Family</h2>
+            <div id="innerInfo">
+                <img id="pic" src="img/family.jpg" border="0" width="538" height="364" usemap="#familyMap" onclick="changeBack()" />
+                <map name="familyMap" id="familyMap">
+                    <area id="barron" alt="Barron" title="Barron" href="#" shape="rect" coords="0,79,57,342" style="outline:none;" target="_self" onclick="barron()" />
+                    <area id="melania" alt="Melania" title="Melania" href="#" shape="rect" coords="58,60,115,334" style="outline:none;" target="_self" onclick="melania()" />
+                    <area id="donald" alt="Donald" title="Donald" href="#" shape="rect" coords="116,134,184,351" style="outline:none;" target="_self" onclick="donald()" />
+                    <area id="tiffany" alt="Tiffany" title="Tiffany" href="#" shape="rect" coords="190,54,246,329" style="outline:none;" target="_self" onclick="tiffany()" />
+                    <area id="eric" alt="Eric" title="Eric" href="#" shape="rect" coords="276,38,345,239" style="outline:none;" target="_self" onclick="eric()" />
+                    <area id="ivanka" alt="Ivanka" title="Ivanka" href="#" shape="rect" coords="453,52,538,348" style="outline:none;" target="_self" onclick="ivanka()" />
+                    <area id="donaldJr" alt="Donald Jr." title="Donald Jr" href="#" shape="poly" coords="362,218,327,258,320,339,385,352,427,284,441,260,429,189,403,177,403,155,403,147,394,137,383,137,376,145,375,177,365,184,352,206,342,228" style="outline:none;" target="_self" onclick="donaldJr()" />
+                </map>
+                <p id="bio">
+                    Select a member of the Trump family to see their bio.
+                </p>
+            </div>
+        </div>
+        <br />
+    </div>
+    <div id="footer">
+    </div>
+</body>
+</html>
+

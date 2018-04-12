@@ -1,0 +1,24 @@
+﻿body {
+}
+#pic {
+    width:auto;
+    height: 364px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+#bio{
+    text-align: center;
+}
+#familyList li:hover{
+    color:#15303F;
+}
+#main {
+    height: 1000px;
+}
+#sidebar{
+    height:1000px;
+}

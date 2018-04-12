@@ -1,0 +1,27 @@
+﻿#byCounty {
+   padding-left: 150px;
+}
+#exitpolls {
+    width: auto;
+    height: 360px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#electCollege {
+    width:auto;
+    height: 360px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#main{
+    height: 2000px;
+}
+#sidebar{
+    height: 2000px;
+}
